@@ -42,7 +42,7 @@ class MapBaiDu
     return self.result()['result']['location']['lat']
   end
 
-  def get_location
+    def get_location
     return self.result()['result']['location']
   end
 
